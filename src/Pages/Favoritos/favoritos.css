@@ -1,0 +1,28 @@
+.container-favo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    width: 100%;
+}
+
+.container-favo ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.container-favo ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.container-favo ul li button{
+    margin-left: 10px;
+    font-size: 10px;
+    width: 16vw;
+    height: 6vh;
+}

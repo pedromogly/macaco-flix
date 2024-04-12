@@ -1,0 +1,39 @@
+.filme-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: nowrap;
+    width: 80vw;
+    padding: 0 8px;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.filme-info h6{
+    font-size: 3vw;
+    margin: 2vw;
+}
+
+.filme-info img{
+    border-radius: 10px;
+    width: 80vw;
+    justify-self: center;
+}
+
+.filme-info strong{
+    margin: 2vw;
+}
+
+.area-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.area-buttons button{
+    margin-right: 13px;
+}
+
+a {
+    text-decoration: none;
+}
